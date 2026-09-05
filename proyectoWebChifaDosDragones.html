@@ -1,230 +1,174 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Chifa Dos Dragones</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-
+<html lang="es">
+<head>
+    <title>Chifa Dos Dragones</title>
+    <!-- Metatags básicos -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Tutorial html. Meta tags">
+    <meta name="keywords" content="chifa, restaurante, fusión, asiático">
+    <meta http-equiv="Content-Language" content="es">
+    <meta name="Distribution" content="global">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Robots" content="all">
+    
+    <!-- Enlace al archivo CSS externo -->
+    <link rel="stylesheet" type="text/css" href="css1.css" />
+</head>
+<body>
+    
+    <header>
+        <img src="logo.jpg" alt="Logotipo del restaurante">
         <h1> Chifa Dos Dragones </h1>
-        <h2> Platos de Fondo</h2> 
-        <ol>
-            <li> <br>
-                <p><img src="arroz_chaufa_de_pollo.jpg" alt="Arroz Chaufa de Pollo" width="80" height="80"></p> 
-                <p>Arroz Chaufa de Pollo - S/ 18.00</p>
-            </li> 
-            <li><br>
-                <p><img src="arroz_chaufa_de_carne.jpg" alt="Arroz Chaufa de Carne" width="80" height="80"></p>
-                <p>Arroz Chaufa de Carne - S/ 20.00</p>
-            </li>
-            <li><br>
-                <p><img src="arroz_chaufa_mixto.jpg" alt="Arroz Chaufa Mixto" width="80" height="80"></p>
-                <p>Arroz Chaufa Mixto - S/ 22.00</p>
-            </li>
-            <li><br>
-                <p><img src="tallarin_saltado_de_pollo.jpg" alt="Tallarín Saltado de Pollo" width="80" height="80"></p>
-                <p>Tallarín Saltado de Pollo - S/ 19.00</p>
-            </li>
-            <li><br>
-                <p><img src="tallarin_saltado_de_carne.jpg" alt="Tallarín Saltado de Carne" width="80" height="80"></p>
-                <p>Tallarín Saltado de Carne - S/ 21.00</p>
-            </li>
-            <li><br>
-                <p><img src="tallarin_saltado_mixto.jpg" alt="Tallarín Saltado Mixto" width="80" height="80"></p>
-                <p>Tallarín Saltado Mixto - S/ 23.00</p>
-            </li>
-        </ol>
+        <h2> Sabor oriental, pasión peruana </h2>         
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#">Nuestra historia</a></li>
+            <li><a href="#">Nuestra Carta</a></li>
+            <li><a href="#">Nuestros locales</a></li>
+            <li><a href="#">Realiza un pedido</a></li>
+            <li><a href="#">Califícanos</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <article>
+            <h2>Nuestra Historia</h2>
+            <p>
+                Hace 20 años, un inmigrante Chino llamado Xeo Pin, llegó a tierras Piuranas
+                en búsqueda de un mejor futuro para su familia. Aquí, encontró una gran variedad de ingredientes
+                y especias, por lo que decidió empezar su restaurante. Abrazó lo mejor de la gastronomía peruana y 
+                lo fusionó con todo aquello que había dejado atrás.
+            </p>
+        </article>
+        
+        <section>
+            <h2>Conoce más sobre nosotros</h2>
+            <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+                <div>
+                    <h3>El arte del Wok</h3>
+                    <video width="320" height="240" controls poster="logo.jpg">
+                        <source src="videoChifa.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <h2>Arroces</h2>
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Platillo</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td><img src="arroz_chaufa_de_pollo.jpg" alt="Arroz Chaufa de Pollo" width="80" height="80"></td>
+                <td>Arroz Chaufa de Pollo</td>
+                <td>S/ 18.00</td>
+            </tr>
+            <tr>
+                <td><img src="arroz_chaufa_de_carne.jpg" alt="Arroz Chaufa de Carne" width="80" height="80"></td>
+                <td>Arroz Chaufa de Carne</td>
+                <td>S/ 20.00</td>
+            </tr>
+            <tr>
+                <td><img src="arroz_chaufa_mixto.jpg" alt="Arroz Chaufa Mixto" width="80" height="80"></td>
+                <td>Arroz Chaufa Mixto</td>
+                <td>S/ 22.00</td>
+            </tr>
+        </table>
 
         <h2> Sopas y Caldos</h2>
-        <ul>
-            <li><br>
-                <p><img src="sopa_de_wantán.jpg" alt="Sopa Wantán" width="80" height="80"></p>
-                <p>Sopa Wantán - S/ 15.00</p>
-            </li>
-            <li><br>
-                <p><img src="sopa_de_pollo_con_verduras.jpg" alt="Sopa de Pollo con Verduras" width="80" height="80"></p>
-                <p>Sopa de Pollo con Verduras - S/ 14.00</p>
-            </li>
-            <li><br>
-                <p><img src="caldo_de_gallina.jpg" alt="Caldo de Gallina" width="80" height="80"></p>
-                <p>Caldo de Gallina - S/ 16.00</p>
-            </li>
-            <li><br>
-                <p><img src="sopa_de_fideos_de_arroz.jpg" alt="Sopa de Fideos de Arroz" width="80" height="80"></p>
-                <p>Sopa de Fideos de Arroz - S/ 15.50</p>
-            </li>
-        </ul>
-
-        <h2> Guisos y Estofados</h2>
-        <ol>
-            <li><br>
-                <p><img src="pollo_tipa_kay.jpg" alt="Pollo Tipa Kay" width="80" height="80"></p>
-                <p>Pollo Tipa Kay - S/ 22.00</p>
-            </li>
-            <li><br>
-                <p><img src="carne_con_verduras.jpg" alt="Carne con Verduras" width="80" height="80"></p>
-                <p>Carne con Verduras - S/ 23.00</p>
-            </li>
-            <li><br>
-                <p><img src="chancho_agridulce.jpg" alt="Chancho Agridulce" width="80" height="80"></p>
-                <p>Chancho Agridulce - S/ 24.00</p>
-            </li>
-            <li><br>
-                <p><img src="pescado_al_vapor.jpg" alt="Pescado al Vapor" width="80" height="80"></p>
-                <p>Pescado al Vapor - S/ 25.00</p>
-            </li>
-            <li><br>
-                <p><img src="langostinos_con_salsa_de_ostión.jpg" alt="Langostinos con Salsa de Ostión" width="80" height="80"></p>
-                <p>Langostinos con Salsa de Ostión - S/ 32.00</p>
-            </li>
-        </ol>
-
-        <h2> Entradas y Acompañamientos</h2>
-        <ul>
-            <li><br>
-                <p><img src="wantán_frito.jpg" alt="Wantán Frito" width="80" height="80"></p>
-                <p>Wantán Frito - S/ 8.00</p>
-            </li>
-            <li><br>
-                <p><img src="rollitos_de_primavera.jpg" alt="Rollitos de Primavera" width="80" height="80"></p>
-                <p>Rollitos de Primavera - S/ 9.00</p>
-            </li>
-            <li><br>
-                <p><img src="arroz_blanco.jpg" alt="Arroz Blanco" width="80" height="80"></p>
-                <p>Arroz Blanco - S/ 5.00</p>
-            </li>
-            <li><br>
-                <p><img src="papa_a_la_huancaína.jpg" alt="Papas a la Huancaína" width="80" height="80"></p>
-                <p>Papas a la Huancaína - S/ 10.00</p>
-            </li>
-            <li><br>
-                <p><img src="ensalada_china.jpg" alt="Ensalada China" width="80" height="80"></p>
-                <p>Ensalada China - S/ 11.00</p>
-            </li>
-        </ul>
-
-        <h2> Combos Especiales</h2>
-        <ol>
-            <li><br>
-                <p><img src="combo1.jpg" alt="Combo 1" width="80" height="80"></p>
-                <p>Combo 1</p>
-                <ul>
-                    <li>Arroz Chaufa de Pollo</li>
-                    <li>Tallarín Saltado</li>
-                    <li>Gaseosa</li>
-                    <li>Precio: S/ 28.00</li>
-                </ul>
-            </li>
-            <li><br>
-                <p><img src="combo2.jpg" alt="Combo 2" width="80" height="80"></p>
-                <p>Combo 2</p>
-                <ul>
-                    <li>Arroz Chaufa Mixto</li>
-                    <li>Sopa Wantán</li>
-                    <li>Wantán Frito</li>
-                    <li>Precio: S/ 32.00</li>
-                </ul>
-            </li>
-            <li><br>
-                <p><img src="combo3.jpg" alt="Combo 3" width="80" height="80"></p>
-                <p>Combo 3</p>
-                <ul>
-                    <li>Chancho Agridulce</li>
-                    <li>Arroz Blanco</li>
-                    <li>Chicha Morada</li>
-                    <li>Precio: S/ 30.00</li>
-                </ul>
-            </li>
-            <li><br>
-                <p><img src="combo_familiar.jpg" alt="Combo Familiar" width="80" height="80"></p>
-                <p>Combo Familiar</p>
-                <ul>
-                    <li>2 Arroces Chaufa</li>
-                    <li>2 Tallarines</li>
-                    <li>4 Entradas</li>
-                    <li>2 Bebidas</li>
-                    <li>Precio: S/ 75.00</li>
-                </ul>
-            </li>
-            <li><br>
-                <p><img src="combo_ejecutivo.jpg" alt="Combo Ejecutivo" width="80" height="80"></p>
-                <p>Combo Ejecutivo</p>
-                <ul>
-                    <li>Pollo Tipa Kay</li>
-                    <li>Arroz</li>
-                    <li>Ensalada</li>
-                    <li>Jugo</li>
-                    <li>Precio: S/ 30.00</li>
-                </ul>
-            </li>
-        </ol>
-
-        <h2> Bebidas</h2>
-        <ul>
-            <li><br>
-                <p><img src="inca_kola.jpg" alt="Inca Kola" width="80" height="80"></p>
-                <p>Inca Kola - S/ 7.00</p>
-            </li>
-            <li><br>
-                <p><img src="chicha_morada.jpg" alt="Chicha Morada" width="80" height="80"></p>
-                <p>Chicha Morada - S/ 6.00</p>
-            </li>
-            <li><br>
-                <p><img src="agua_mineral.jpg" alt="Agua Mineral" width="80" height="80"></p>
-                <p>Agua Mineral - S/ 4.00</p>
-            </li>
-            <li><br>
-                <p><img src="jugo_de_maracuyá.jpg" alt="Jugo de Maracuyá" width="80" height="80"></p>
-                <p>Jugo de Maracuyá - S/ 8.00</p>
-            </li>
-        </ul>
+        <table>
+            <tr>
+                <th>Imagen</th>
+                <th>Platillo</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td><img src="sopa_de_wantán.jpg" alt="Sopa Wantán" width="80" height="80"></td>
+                <td>Sopa Wantán</td>
+                <td>S/ 15.00</td>
+            </tr>
+            <tr>
+                <td><img src="sopa_de_pollo_con_verduras.jpg" alt="Sopa de Pollo con Verduras" width="80" height="80"></td>
+                <td>Sopa de Pollo con Verduras</td>
+                <td>S/ 14.00</td>
+            </tr>
+            <tr>
+                <td><img src="caldo_de_gallina.jpg" alt="Caldo de Gallina" width="80" height="80"></td>
+                <td>Caldo de Gallina</td>
+                <td>S/ 16.00</td>
+            </tr>
+            <tr>
+                <td><img src="sopa_de_fideos_de_arroz.jpg" alt="Sopa de Fideos de Arroz" width="80" height="80"></td>
+                <td>Sopa de Fideos de Arroz</td>
+                <td>S/ 15.50</td>
+            </tr>
+        </table>
 
         <h2>¡Califica nuestro "Chifa Dos Dragones"!</h2>
-
+        
         <form action="#" method="post">
-            <h3>TUS DATOS</h3>
-            <label>Nombre:</label>
-            <input type="text" name="nombre" required>
-            <label>Apellido:</label>
-            <input type="text" name="apellido" required>
-            <label>Teléfono:</label>
-            <input type="tel" name="telefono" required>
-            <h3>TU OPINIÓN</h3>
-            <label>Calificación general:</label>
-            <select name="calificacion" required>
-                <option value="1">⭐ Malo</option>
-                <option value="2">⭐⭐ Regular</option>
-                <option value="3" selected>⭐⭐⭐ Buena</option>
-                <option value="4">⭐⭐⭐⭐ Muy buena</option>
-                <option value="5">⭐⭐⭐⭐⭐ Excelente</option>
-            </select>
-            <label>¿Qué te gustó más? (puedes elegir varios):</label>
-            <div class="opcion-check">
-                <label class="label-check">
-                    <input type="checkbox" name="gusta" value="comida"> La comida
-                </label><br>
-                <label class="label-check">
-                    <input type="checkbox" name="gusta" value="atencion"> La atención
-                </label><br>
-                <label class="label-check">
-                    <input type="checkbox" name="gusta" value="lugar"> El ambiente
-                </label><br>
-                <label class="label-check">
-                    <input type="checkbox" name="gusta" value="precio"> Los precios
-                </label>
+            <fieldset>
+                <legend>TUS DATOS</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>TU OPINIÓN</legend>
+                <label for="calificacion">Calificación general:</label>
+                <select id="calificacion" name="calificacion" required>
+                    <option value="1">⭐ Malo</option>
+                    <option value="2">⭐⭐ Regular</option>
+                    <option value="3" selected>⭐⭐⭐ Buena</option>
+                    <option value="4">⭐⭐⭐⭐ Muy buena</option>
+                    <option value="5">⭐⭐⭐⭐⭐ Excelente</option>
+                </select>
+                
+                <label>¿Qué te gustó más? (puedes elegir varios):</label>
+                <div>
+                    <label for="gusta_comida" style="display:inline;">
+                        <input type="checkbox" id="gusta_comida" name="gusta" value="comida" style="width:auto;"> La comida
+                    </label><br>
+                    <label for="gusta_atencion" style="display:inline;">
+                        <input type="checkbox" id="gusta_atencion" name="gusta" value="atencion" style="width:auto;"> La atención
+                    </label><br>
+                    <label for="gusta_lugar" style="display:inline;">
+                        <input type="checkbox" id="gusta_lugar" name="gusta" value="lugar" style="width:auto;"> El ambiente
+                    </label>
+                </div>
+                
+                <label for="recomienda">¿Nos recomendarías?</label>
+                <select id="recomienda" name="recomienda">
+                    <option value="si">Sí, sin duda</option>
+                    <option value="talvez">Tal vez</option>
+                    <option value="no">No</option>
+                </select>
+                
+                <label for="comentario">Comentarios o sugerencias:</label>
+                <textarea id="comentario" name="comentario" rows="4" placeholder="Escribe aquí tu opinión..."></textarea>
+            </fieldset>
+
+            <div style="display: flex; gap: 10px; justify-content: center;">
+                <button type="submit">Enviar mi voto</button>
+                <input type="reset" value="Borrar">
             </div>
-            <label>¿Nos recomendarías?</label>
-            <select name="recomienda">
-                <option value="si">Sí, sin duda</option>
-                <option value="talvez">Tal vez</option>
-                <option value="no">No</option>
-            </select>
-            <label>Comentarios o sugerencias:</label>
-            <textarea name="comentario" rows="4" placeholder="Escribe aquí tu opinión..."></textarea>
-            <button type="submit">Enviar mi voto</button>
         </form>
+    </main>
+    
+    <footer>
+        <div>© 2026 Chifa Dos Dragones - Todos los derechos reservados.</div>
+    </footer>
 
-
-    </body>
+</body>
 </html>

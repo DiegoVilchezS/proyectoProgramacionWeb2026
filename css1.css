@@ -1,9 +1,108 @@
-/*
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
-*/
-/* 
-    Created on : 1 set. 2026, 5:51:08 p. m.
-    Author     : dvilc
-*/
+header, footer, h1, h2, h3, div {
+    text-align: center;
+}
 
+body {
+    font-family: "Times New Roman", serif;
+    margin: 40px;
+    background-color: #F5F5DC;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("dragon.png");
+    background-attachment: fixed;
+}
+
+/* Alineación horizontal para el menú de navegación */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+
+nav li {
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilos para listas generales (que no sean del nav) */
+ul, ol {
+    margin: 20px;
+    padding: 30px;
+    font-weight: bold;   
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    position: relative;
+    padding: 14px 10px 14px 40px;
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: white;
+}
+
+fieldset {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button, input[type="reset"] {
+    margin-top: 15px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #8B0000;
+    color: white;
+}
+
+/* Separación del pie de página */
+footer {
+    margin-top: 60px;
+}
